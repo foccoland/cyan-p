@@ -2,13 +2,17 @@
   "name": "cyan-p",
   "version": "1.0.0",
   "description": "CYpress Automated Nightly Project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foccoland/cyan-p.git"
+  },
+  "dependencies": {
+      "express": "^4.17.1"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fabio Giannelli",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.17.1"
-  }
+  "license": "MIT"
 }
